@@ -12,8 +12,8 @@ public class FileUpdateCopyUtil {
 
     public static void main(String[] args) {
         try {
-            copyTodayUpdateFiles("E:\\00问题解决库、代码库、QA库\\a02_代码库和动手",
-                    "E:\\00问题解决库、代码库、QA库\\a02_代码库和动手\\a01_初级\\a01_待完成\\JSE_a01超甲_FileUtils【完成度0%】\\a01_核心代码");
+            copyTodayUpdateFiles("E:\\00",
+                    "E:\\a01_核心代码");
         } catch (IOException e) {
             e.printStackTrace();
         }
